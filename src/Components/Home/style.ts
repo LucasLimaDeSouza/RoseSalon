@@ -27,7 +27,5 @@ export const BoxHome = styled.main`
     .boxImage {
         display: flex;
         gap: 2.3rem;
-        
-    }
 
 `

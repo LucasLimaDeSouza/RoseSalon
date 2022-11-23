@@ -12,7 +12,7 @@ export function Header() {
                     <ul>
                         <Link  className="linkPages" to="/">Boas Vindas</Link>
                         <Link  className="linkPages" to="/galeria">Galeria</Link>
-                        <Link  className="linkPages" to="/about">Sobre Nós</Link>
+                        <Link  className="linkPages" to="/sobre">Sobre Nós</Link>
                         <Link  className="linkPages" to="/contato">Contatos</Link>
                     </ul>
                 </nav>

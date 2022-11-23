@@ -8,18 +8,43 @@ export function Gallery() {
     return(
         <>
             <BoxGallery>
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
-                <img src={Photos} alt="" />
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                <div className="contentPhoto">
+                    <img src={Photos} alt="" />
+                    <p>50 R$</p>
+                </div>
+                
             </BoxGallery>
             <Footer/>
         </>
