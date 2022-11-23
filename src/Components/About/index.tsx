@@ -1,5 +1,4 @@
 import { AboutBox } from "./style";
-import { AboutParallax } from "./style";
 import SobreEla from "../../assets/about.svg"
 import Parallax from "../../assets/salaoParallax.svg"
 import { Footer } from "../Footer";
@@ -13,7 +12,7 @@ export function About() {
 
                 <div className="containerAbout">
 
-                    <img src={SobreEla} alt="Foto de uma cabeleireira" />
+                    <img className="imgAbout" src={SobreEla} alt="Foto de uma cabeleireira" />
 
                     <div className="boxText">
                         <h3>Lorem ipsum</h3>
@@ -28,9 +27,9 @@ export function About() {
                     </div>
                 </div>
 
-                <AboutParallax>
-                    <img src={Parallax} className="imgParallax" alt="" />
-                </AboutParallax>
+                <div className="AboutimgCenter">
+                    <img src={Parallax} className="imgCenter" alt="" />
+                </div>
 
                 <div className="containerAbout">
 
@@ -46,7 +45,7 @@ export function About() {
                         </p>
                     </div>
 
-                    <img src={SobreEla} alt="Foto de uma cabeleireira" />
+                    <img className="imgAbout" src={SobreEla} alt="Foto de uma cabeleireira" />
 
                 </div>
             </AboutBox>

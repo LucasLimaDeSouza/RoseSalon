@@ -30,19 +30,26 @@ export const AboutBox = styled.div`
         
     }
 
-
-`
-
-export const AboutParallax = styled.section`
-    
-    padding: 10rem 0;
-    
-    
-    .imgParallax{
-        
-        width: 100%;
-        border-radius: 0.6rem;
-        box-shadow: 5px 5px 8px black;
-
+    .imgAbout {
+        border: 3px solid #1E1E1E;
     }
+
+    .AboutimgCenter{
+        
+        padding: 10rem 0;
+        
+        .imgCenter{
+            
+            width: 100%;
+            border-radius: 0.6rem;
+            box-shadow: 5px 5px 8px black;
+        }
+    }
+
+    
+    
+
 `
+
+
+
