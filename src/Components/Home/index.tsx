@@ -7,7 +7,7 @@ import  Ela  from "../../assets/ela.svg";
 export function Home(){
 
     return(
-        <BoxHome>
+        <BoxHome className="home">
             <div className="boxText">
                 <h1>
                     O Melhor Salão
@@ -18,8 +18,8 @@ export function Home(){
             </div>
 
             <div className="boxImage">
-                <img src={Ele}/>
-                <img src={Ela}/>
+                <img className="prof" src={Ele}/>
+                <img className="prof" src={Ela}/>
             </div>
         </BoxHome>
     )

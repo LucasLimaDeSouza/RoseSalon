@@ -6,7 +6,127 @@
 }
 
 $Rosa: #EA4C89;
+$RosaGradient: radial-gradient(circle, rgba(234,76,137,1) 0%, rgba(255,255,255,1) 100%);
+$branco: white;
 $ColorLink: #1E1E1E;
+
+//SCROLLBAR/////////////////////////////////////////////////////////////////////////////
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $Rosa;
+    border-radius: 16px;
+}
+
+//RESPONSIVE////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////HEADER HEADER HEADER HEADER HEADER/
+@media(max-width: 1150px) {
+    .logoImage {
+        margin-left: 2rem !important;
+    }
+    .navPages {
+        display: none !important;
+    }
+    .menuHamburgger {
+        visibility: visible !important;
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////HOME HOME HOME HOME HOME/
+@media(max-width: 800px) {
+    
+    .prof {
+        display: none;
+    }
+    
+    .home {
+        display: flex;
+        gap: 0 !important;
+        height: 100vh;
+        margin-top: 0 !important;
+        background: $RosaGradient;
+        
+        .boxText{
+            height: 14.2rem;
+            text-align: justify;
+            width: 90% !important;
+            
+            
+            h1{
+                
+                color: $branco !important;
+                
+            }
+        }    
+    }
+    
+    
+}
+/////////////////////////////////////////////////////////////////////////////////////ABOUT ABOUT ABOUT ABOUT ABOUT/
+
+@media(max-width: 1150px) {
+    
+    .containerAbout{
+        flex-direction: column;
+        gap: 5rem !important;
+        margin: 0 !important;
+
+        .imgAbout{
+            width: 80%;
+        }
+        .imgCenter{
+            width: 30px !important;
+        }
+        
+        .boxText{
+            width: 80%;
+            text-align: left;
+            padding: 0 5rem;
+        }
+    }
+}
+/////////////////////////////////////////////////////////////////////////////////////CONTACT CONTACT CONTACT CONTACT CONTACT/
+@media(max-width: 1150px) {
+    
+    ul {
+        width: 80% !important;
+    }
+}
+
+
+
+
+@media(min-width: 801px) and (max-width: 1202px) {
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15rem !important;
+        padding-bottom: 5rem;
+        
+        .boxText{
+            text-align: center;
+            height: 14.2rem;
+            margin-bottom: 2.3rem !important;
+            width: 40rem !important;
+            
+            
+            
+            .boxImage {
+                margin-bottom: 5rem;
+            }
+        }    
+        
+    }
+    /////////////////////////////////////////////////////////////////////////////////////HOME HOME HOME HOME HOME/
+}
 
 
 

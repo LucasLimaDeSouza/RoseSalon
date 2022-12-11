@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BoxHome = styled.main`
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,5 +27,6 @@ export const BoxHome = styled.main`
     .boxImage {
         display: flex;
         gap: 2.3rem;
+    }
 
 `

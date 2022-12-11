@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-
 export const Topo = styled.header`
 
+@import '../../src/style/index';
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 text-align: center;
 width: 100%;
 
@@ -14,7 +14,7 @@ width: 100%;
     display: flex;
     height: 2rem;
     padding: 2rem 0;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     background: white;
@@ -25,13 +25,15 @@ width: 100%;
 
 
 .logoImage {
-    margin-right: 6.1rem;
+    margin-left: 4rem;
 }
 
-ul {
+.navPages {
     
     display: flex;
-    gap: 6.5rem;
+    gap: 4.5rem;
+    margin-right: 6.5rem;
+    
     
     .linkPages{
         list-style: none;
@@ -43,6 +45,16 @@ ul {
         color: #1E1E1E;
     }
         
-    }
+}
+.menuHamburgger {
+    position: absolute;
+    color: #EA4C89;
+    width: 50px;
+    height: 50px;
+    right: 2.5rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+
     
     `

@@ -36,11 +36,14 @@ export const AboutBox = styled.div`
 
     .AboutimgCenter{
         
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 10rem 0;
         
         .imgCenter{
             
-            width: 100%;
+            width: 90%;
             border-radius: 0.6rem;
             box-shadow: 5px 5px 8px black;
         }

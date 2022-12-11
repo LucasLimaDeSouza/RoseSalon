@@ -7,9 +7,12 @@ export const BoxContact = styled.main`
     align-items: center;
     justify-content: center;
     margin-top: 11.8rem;
-
+    
     ul{ 
+        width: 42%;
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         list-style: none;
         
@@ -19,7 +22,7 @@ export const BoxContact = styled.main`
             margin-bottom: 2.2rem;
             
             background: #EA4C89;
-            width: 32rem;
+            width: 100%;
             height: 2.8rem;
             border-radius: 0.6rem;
             color: #fff;
