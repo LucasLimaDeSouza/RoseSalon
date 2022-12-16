@@ -12,6 +12,7 @@ export const BoxFooter = styled.footer`
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0.12em;
-    color: #EA4C89;
-
+    color: ${(props) => props.theme.colors.Rosa};
+    
+    
 `

@@ -1,6 +1,6 @@
 import { AboutBox } from "./style";
 import SobreEla from "../../assets/about.svg"
-import Parallax from "../../assets/salaoParallax.svg"
+import MidPhoto from "../../assets/salaoParallax.svg"
 import { Footer } from "../Footer";
 
 
@@ -28,7 +28,7 @@ export function About() {
                 </div>
 
                 <div className="AboutimgCenter">
-                    <img src={Parallax} className="imgCenter" alt="" />
+                    <img src={MidPhoto} className="imgCenter" alt="" />
                 </div>
 
                 <div className="containerAbout">

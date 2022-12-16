@@ -8,6 +8,7 @@ export const BoxGallery = styled.main`
     gap: 5rem;
     justify-content: center;
     margin-top: 9.4rem;
+    z-index: 0;
 
     .contentPhoto{
         display: flex;
@@ -20,7 +21,7 @@ export const BoxGallery = styled.main`
         font-size: 28px;
         line-height: 72px;
         letter-spacing: 0.12em;
-        color: #EA4C89;
+        color: ${(props) => props.theme.colors.Rosa};
     }
 
     img {

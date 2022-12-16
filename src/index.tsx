@@ -1,4 +1,4 @@
-import "../src/style/index.scss"
+import "../src/style/global.scss"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

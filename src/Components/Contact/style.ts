@@ -7,6 +7,7 @@ export const BoxContact = styled.main`
     align-items: center;
     justify-content: center;
     margin-top: 11.8rem;
+    z-index: 0;
     
     ul{ 
         width: 42%;
@@ -21,11 +22,11 @@ export const BoxContact = styled.main`
             display: flex;
             margin-bottom: 2.2rem;
             
-            background: #EA4C89;
+            background: ${(props) => props.theme.colors.Rosa};
             width: 100%;
             height: 2.8rem;
             border-radius: 0.6rem;
-            color: #fff;
+            color: ${(props) => props.theme.colors.branco};
             align-items: center;
             font-family: 'Poppins', sans-serif;
             font-style: normal;
@@ -54,9 +55,9 @@ export const BoxContact = styled.main`
             }
             label:hover{
                 transition: all 0.8s;
-                color: #EA4C89;
-                background-color: white;
-                border: 1px solid #EA4C89;
+                color: ${(props) => props.theme.colors.Rosa};
+                background-color: ${(props) => props.theme.colors.branco};
+                border: 1px solid ${(props) => props.theme.colors.Rosa};
                 border-radius: 0.6rem;
             }
             

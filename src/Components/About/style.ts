@@ -6,6 +6,7 @@ export const AboutBox = styled.div`
     justify-content: center;
     align-items: center;
     margin: 8rem 0;
+    z-index: 0;
     
     .containerAbout{
         display: flex;
@@ -23,15 +24,17 @@ export const AboutBox = styled.div`
         font-size: 18px;
         line-height: 32px;
         letter-spacing: 0.12em;
-        color: #EA4C89;
+        color: ${(props) => props.theme.colors.Rosa};
         padding-bottom: 5rem;
-        border-bottom: dashed 1px #EA4C89;
+        border-bottom: dashed 1px ${(props) => props.theme.colors.Rosa};
 
         
     }
 
     .imgAbout {
-        border: 3px solid #1E1E1E;
+        border: 11px dashed rgba(234, 76, 137, 50%);
+        padding: 0.5rem;
+
     }
 
     .AboutimgCenter{

@@ -7,6 +7,7 @@ export const BoxHome = styled.main`
     justify-content: center;
     margin-top: 10.1rem;
     gap: 5rem;
+    z-index: 0;
 
     .boxText{
         width: 28.5rem;
@@ -20,7 +21,7 @@ export const BoxHome = styled.main`
             font-size: 48px;
             line-height: 72px;
             letter-spacing: 0.12em;
-            color: #EA4C89;
+            color: ${(props) => props.theme.colors.Rosa};
         }
     }
     

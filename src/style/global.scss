@@ -53,9 +53,12 @@ $ColorLink: #1E1E1E;
         background: $RosaGradient;
         
         .boxText{
-            height: 14.2rem;
-            text-align: justify;
+            
             width: 90% !important;
+            padding: 0 2.5rem !important;
+            margin-bottom: 11rem !important;
+            text-align: justify;
+
             
             
             h1{
@@ -87,7 +90,7 @@ $ColorLink: #1E1E1E;
         .boxText{
             width: 80%;
             text-align: left;
-            padding: 0 5rem;
+            padding: 0 1rem;
         }
     }
 }
@@ -100,12 +103,16 @@ $ColorLink: #1E1E1E;
 }
 
 
+/////////////////////////////////////////////////////////////////////////////////////HOME HOME HOME HOME HOME/
 
 
 @media(min-width: 801px) and (max-width: 1202px) {
     .home {
         display: flex;
         align-items: center;
+
+
+        
         justify-content: center;
         flex-direction: column;
         margin-top: 15rem !important;
