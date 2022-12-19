@@ -1,6 +1,6 @@
 import { BoxHome } from "./style";
-import  Ele  from "../../assets/ele.svg";
-import  Ela  from "../../assets/ela.svg";
+import  R  from "../../assets/ele.svg";
+import  S  from "../../assets/ela.svg";
 
 
 
@@ -18,8 +18,8 @@ export function Home(){
             </div>
 
             <div className="boxImage">
-                <img className="prof" src={Ele}/>
-                <img className="prof" src={Ela}/>
+                <img className="prof" src={R}/>
+                <img className="prof" src={S}/>
             </div>
         </BoxHome>
     )
