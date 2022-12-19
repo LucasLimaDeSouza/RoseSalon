@@ -10,7 +10,7 @@
 </div>
 <br/>
 <p>
-  <b>RoseSalon</b> é uma <b>SPA (Single Page Aplication) Responsiva</b> desenvolvia em React.js (Biblioteca JavaScript).
+  <b>RoseSalon</b> é uma <b>SPA (Single Page Application) Responsiva</b> desenvolvia em React.js (Biblioteca JavaScript).
   <br/>
   A idéia foi criar um site dedicado a minha mãe, a Dona Rose, que foi cabeleireira por muito tempo.
 </p>
