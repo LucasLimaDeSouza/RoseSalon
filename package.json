@@ -1,7 +1,7 @@
 {
   "name": "rosesalon",
   "version": "0.1.0",
-  "homepage": "github_page/",
+  
   "private": true,
   "dependencies": {
     "node-sass": "^7.0.3",
